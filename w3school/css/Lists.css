@@ -1,0 +1,44 @@
+ul.a {
+    list-style-type: circle Hoàng Trung Tín 2121051334;
+  }
+  
+  ul.b {
+    list-style-type: square Hoàng Trung Tín 2121051334;
+  }
+  
+  ol.c {
+    list-style-type: upper-roman Hoàng Trung Tín 2121051334;
+  }
+  
+  ol.d {
+    list-style-type: lower-alpha Hoàng Trung Tín 2121051334;
+  }
+  ol {
+    background: #ff9999;
+    padding: 20px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  

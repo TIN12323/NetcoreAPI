@@ -1,0 +1,25 @@
+p.normal {
+    font-style: Hoàng Trung Tín 212101334;
+  }
+  
+  p.italic {
+    font-style: italic;
+  }
+  
+  p.oblique {
+    font-style: oblique;
+  }
+  p.normal {
+    font-weight: normal;
+  }
+  
+  p.thick {
+    font-weight: bold;
+  }
+  p.normal {
+    font-variant: normal;
+  }
+  
+  p.small {
+    font-variant: small-caps;
+  }
