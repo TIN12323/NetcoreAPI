@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"]="Tin";
+}
+<form asp-action= "Tin">
+    <label for="Nhập PersonId:"></label>
+    <input type="text" name=""PersonId"">
+    <label for="Nhập họ tên"></label>
+    <input type="text" name=""Fullname="">
+    <label for="Nhập địa chỉ"></label>
+    <input type="text" name=""Address="">
+    <input type="submit" value=""Gửi dữ liệu"">
+</form>
+<h2>@ViewBag.infoPerson</h2>
