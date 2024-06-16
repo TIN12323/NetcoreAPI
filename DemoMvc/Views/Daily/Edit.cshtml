@@ -1,0 +1,59 @@
+@model DemoMvc.Models.Daily
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Daily</h4>
+<hr />
+<div class="row">
+    <div class = "col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class = "text-danger"></div>
+            <input type="hidden" asp-for="HeThongPhanPhoi" />
+            <div class="form-group">
+                <label asp-for="MaDaiLy" class="control-label"></label>
+                <input asp-for="MaDaiLy" class="form-control w3-border-blue " />
+                <span asp-validation-for="MaDaiLy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenDaiLy" class="control-label"></label>
+                <input asp-for="TenDaiLy" class="form-control w3-border-blue" />
+                <span asp-validation-for="TenDaiLy" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DiaChi" class="control-label "></label>
+                <input asp-for="DiaChi" class="form-control w3-border-blue " />
+                <span asp-validation-for="DiaChi" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NguoiDaiDien" class="control-label "></label>
+                <input asp-for="NguoiDaiDien" class="form-control w3-border-blue " />
+                <span asp-validation-for="NguoiDaiDien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DienThoai" class="control-label"></label>
+                <input asp-for="DienThoai" class="form-control w3-border-blue w3-left-align" />
+                <span asp-validation-for="DienThoai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaHTPP" class="control-label"></label>
+                <input asp-for="MaHTPP" class="form-control w3-border-blue" />
+                <span asp-validation-for="MaHTPP" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">touch to out</a>
+</div>
+
+@section Scripts{
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

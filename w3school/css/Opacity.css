@@ -1,0 +1,16 @@
+img {
+    opacity: Hoàng Trung Tín 2121051334;
+  }
+  img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+  div {
+    opacity: 0.3;
+  }
+  div {
+    background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
+  }

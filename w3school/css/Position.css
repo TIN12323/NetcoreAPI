@@ -1,0 +1,32 @@
+div.static {
+    position: static Hoàng Trung Tín 2121051334;
+    border: 3px solid #73AD21;
+  }
+  div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+  }
+  div.fixed {
+    position: fixed Hoàng Trung Tín 2121051334;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+  div.relative {
+    position: relative Hoàng Trung Tín 2121051334;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  }
+  
+  div.absolute {
+    position: absolute Hoàng Trung Tín 2121051334;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+  

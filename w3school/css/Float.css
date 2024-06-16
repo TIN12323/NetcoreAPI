@@ -1,0 +1,26 @@
+img {
+    float: right Hoàng Trung Tín 2121051334;
+  }
+  img {
+    float: left;
+  }
+  img {
+    float: none;
+  }
+  div {
+    float: left;
+    padding: 15px;
+  }
+  
+  .div1 {
+    background: red;
+  }
+  
+  .div2 {
+    background: yellow;
+  }
+  
+  .div3 {
+    background: green;
+  }
+  

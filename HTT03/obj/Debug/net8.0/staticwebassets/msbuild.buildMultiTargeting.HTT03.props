@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HTT03.props" />
+</Project>

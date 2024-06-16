@@ -1,0 +1,77 @@
+center {
+    margin: auto Hoàng Trung Tín 212051334;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+  .center {
+    text-align: center Hoàng Trung Tín 212051334;
+    border: 3px solid green;
+  }
+  img {
+    display: block Hoàng Trung Tín 212051334;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  .right {
+    position: absolute Hoàng Trung Tín 212051334;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  .right {
+    float: right ;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .center {
+    padding: 70px 0;
+    border: 3px solid green;
+  }
+  .center {
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+  }
+  .center {
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid green;
+    text-align: center;
+  }
+  
+  /* If the text has multiple lines, add the following: */
+  .center p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  Center Ver
+  .center {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  }
+  
+  .center p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green;
+  }  

@@ -1,0 +1,75 @@
+@model IEnumerable<DemoMvc.Models.Daily>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>LUXURY COMPANY</h1>
+
+<div class="w3-row">
+    <div>
+        <a asp-action="Create" class="w3-border w3-border-blue w3-btn w3-right">NEW VERSION</a>
+    </div>
+    <div class="w3-col l2">
+        <form  asp-action="Index">
+            <input type="text" name="KeySearch" class="w3-input w3-border w3-border-green"/>
+            <input type="submit" value="SEARCH " class="w3-btn w3-border w3-round"/>
+        </form>
+    </div>
+</div>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaDaiLy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenDaiLy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DiaChi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NguoiDaiDien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DienThoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaHTPP)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model)  {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaDaiLy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenDaiLy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NguoiDaiDien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DienThoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaHTPP)
+            </td>
+            
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.HeThongPhanPhoi">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.HeThongPhanPhoi">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

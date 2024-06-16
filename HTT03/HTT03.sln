@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTT03", "HTT03.csproj", "{D012FEF2-3DDF-48BA-B72F-37898EB2B930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D012FEF2-3DDF-48BA-B72F-37898EB2B930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D012FEF2-3DDF-48BA-B72F-37898EB2B930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D012FEF2-3DDF-48BA-B72F-37898EB2B930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D012FEF2-3DDF-48BA-B72F-37898EB2B930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C608B2F0-393A-4D3D-88BF-7AEA5D8A9EEF}
+	EndGlobalSection
+EndGlobal
