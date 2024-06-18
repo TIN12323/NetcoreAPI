@@ -564,3 +564,4 @@ C:\Users\Admin\Downloads\NetcoreAPI-main\DemoMvc\obj\Debug\net8.0\ref\DemoMvc.dl
 C:\Users\Admin\Downloads\NetcoreAPI-main\DemoMvc\bin\Debug\net8.0\X.PagedList.dll
 C:\Users\Admin\Downloads\NetcoreAPI-main\DemoMvc\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
 C:\Users\Admin\Downloads\NetcoreAPI-main\DemoMvc\obj\Debug\net8.0\DemoMvc.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Admin\Downloads\NetcoreAPI-main\DemoMvc\obj\Debug\net8.0\DemoMvc.sourcelink.json
